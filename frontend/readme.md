@@ -24,3 +24,16 @@ Make sure your server is up and running to serve requests.
 - Profile page (URL: /#/@username, /#/@username/favorites )
   - Show basic user info
   - List of items populated from seller's items or user favorite items
+## Setting up the Enviroment
+
+Download docker from the Officical site and install it in your system
+
+Check the version of docker using `docker -v` in the command prompt
+
+Then use the `docker-compose up` to install the necessary pacakges required for the project
+
+If you are facing any issues kindly check the docker is running or not. It's better to run the compose command after opening the docker
+
+For the first time, it takes some time to load the necessary requirements to the project
+
+Finally the project compiled and running successfully.
