@@ -34,6 +34,8 @@ Then use the `docker-compose up` to install the necessary pacakges required for 
 
 If you are facing any issues kindly check the docker is running or not. It's better to run the compose command after opening the docker
 
+Also, try different methods to start the docker
+
 For the first time, it takes some time to load the necessary requirements to the project
 
 Finally the project compiled and running successfully.
