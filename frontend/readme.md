@@ -12,16 +12,16 @@ Make sure your server is up and running to serve requests.
   - List of tags
   - List of items pulled from either Feed, Global, or by Tag
   - Pagination for list of items
-- Sign in/Sign up pages (URL: /#/login, /#/register )
+- Sign in/Sign up pages (URL: http://localhost:3001/login, http://localhost:3001/register )
   - Use JWT (store the token in localStorage)
-- Settings page (URL: /#/settings )
-- Editor page to create/edit articles (URL: /#/editor, /#/editor/slug )
-- Item page (URL: /#/item/slug )
+- Settings page (URL: http://localhost:3001/settings )
+- Editor page to create/edit articles (URL: http://localhost:3001/editor, http://localhost:3001/editor/slug )
+- Item page (URL: http://localhost:3001/item/slug )
   - Delete item button (only shown to item's author)
   - Render markdown from server client side
   - Comments section at bottom of page
   - Delete comment button (only shown to comment's author)
-- Profile page (URL: /#/@dev-manikandan-tech, /#/@dev-manikandan-tech/favorites )
+- Profile page (URL: http://localhost:3001/@castle, http://localhost:3001/@castle/favorites )
   - Show basic user info
   - List of items populated from seller's items or user favorite items
 ## Setting up the Enviroment
