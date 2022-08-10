@@ -8,7 +8,7 @@ Make sure your server is up and running to serve requests.
 
 ## Pages overview
 
-- Home page (URL: /#/ )
+- Home page (URL: http://localhost:3000/api/ping)
   - List of tags
   - List of items pulled from either Feed, Global, or by Tag
   - Pagination for list of items
@@ -21,21 +21,21 @@ Make sure your server is up and running to serve requests.
   - Render markdown from server client side
   - Comments section at bottom of page
   - Delete comment button (only shown to comment's author)
-- Profile page (URL: /#/@username, /#/@username/favorites )
+- Profile page (URL: /#/@dev-manikandan-tech, /#/@dev-manikandan-tech/favorites )
   - Show basic user info
   - List of items populated from seller's items or user favorite items
 ## Setting up the Enviroment
 
-Download docker from the Officical site and install it in your system
+  - Download docker from the Officical site and install it in your system
 
-Check the version of docker using `docker -v` in the command prompt
-
-Then use the `docker-compose up` to install the necessary pacakges required for the project
-
-If you are facing any issues kindly check the docker is running or not. It's better to run the compose command after opening the docker
-
-Also, try different methods to start the docker
-
-For the first time, it takes some time to load the necessary requirements to the project
-
-Finally the project compiled and running successfully.
+  - Check the version of docker using `docker -v` in the command prompt
+  
+  - Then use the `docker-compose up` to install the necessary pacakges required for the project
+  
+  - If you are facing any issues kindly check the docker is running or not. It's better to run the compose command after opening the docker
+  
+  - Also, try different methods to start the docker
+  
+  - For the first time, it takes some time to load the necessary requirements to the project
+  
+  - Finally the project compiled and running successfully.
